@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aakash Basnet – Resume</title>
+    <style>
+    body {
+      background: #f3f4f7;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 32px 0;
+      color: #222;
+    }
+    .resume-container {
+      background: #fff;
+      max-width: 900px;
+      margin: 0 auto;
+      border-radius: 10px;
+      box-shadow: 0 8px 24px #e8e8e8;
+      padding: 36px;
+    }
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 0.2em;
+      color: #235b88;
+    }
+    h2 {
+      margin-top: 2em;
+      color: #3574aa;
+    }
+    h3 {
+      margin-top: 1em;
+      margin-bottom: 0.4em;
+      color: #2b4e72;
+      font-weight: 600;
+    }
+    .contact-info, .links {
+      margin-bottom: 1.2em;
+      font-size: 1.1em;
+    }
+    .job-header {
+      font-weight: bold;
+      margin-bottom: 0.2em;
+    }
+    ul {
+      margin-top: 0.4em;
+      margin-bottom: 1.2em;
+      padding-left: 1.5em;
+    }
+    .skills-list {
+      margin-top: 0.7em;
+      margin-bottom: 0.7em;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6em;
+      list-style: none;
+    }
+    .skills-list li {
+      background: #EAF1FB;
+      border-radius: 6px;
+      padding: 4px 14px;
+      color: #3574aa;
+      font-size: 1em;
+      margin: 2px 0;
+    }
+    .education, .achievements, .links {
+      margin-bottom: 1.7em;
+    }
+    .section-title {
+      font-weight: bold;
+      font-size: 1.25em;
+      margin-bottom: 0.3em;
+      color: #235b88;
+    }
+    a {
+      color: #235b88;
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+<div class="resume-container">
+    <h1>Aakash Basnet</h1>
+    <div class="contact-info">
+        Dallas, Texas &bull;
+        <a href="mailto:aakashbasnet8860@gmail.com">aakashbasnet8860@gmail.com</a> &bull;
+        202-316-6252 &bull;
+        <a href="https://www.aakashbasnet.com" target="_blank">www.aakashbasnet.com</a>
+    </div>
+    <h2>Technical Skills</h2>
+    <ul class="skills-list">
+        <li>Java</li>
+        <li>JavaScript/TypeScript</li>
+        <li>Python</li>
+        <li>SQL / PL/SQL</li>
+        <li>Spring Framework / Spring Boot</li>
+        <li>Angular</li>
+        <li>Node.js</li>
+        <li>Django / Flask</li>
+        <li>React, Redux, Ag Grid, Material UI</li>
+        <li>PostgreSQL, Oracle, MongoDB, MySQL</li>
+        <li>AWS (ECS, EKS, EC2, MSK, Aurora, DynamoDB, S3, API Gateway)</li>
+        <li>Docker, Kubernetes, Jenkins, GitHub Actions</li>
+        <li>Kafka, REST, GraphQL</li>
+        <li>JUnit, Mockito, SonarQube, Checkmarx, Fortify, Git</li>
+        <li>Prometheus, Grafana, Dynatrace</li>
+    </ul>
+    <h2>Experience</h2>
+    <!-- S3 Technical Solutions Inc -->
+    <div>
+        <h3>Senior Software Engineer – S3 Technical Solutions Inc</h3>
+        <span>Irving, TX – Feb 2025 - July 2025</span>
+        <ul>
+            <li>Designed and developed RESTful web services in Java 17/Spring Boot on AWS ECS, Aurora RDS, Lambda, S3, CloudWatch.</li>
+            <li>Built a multi-sport engine using Strategy patterns, improving feature extensibility.</li>
+            <li>Integrated Stripe and PayPal SDKs, processing $10K+/month in PCI DSS compliant transactions.</li>
+            <li>Implemented Keycloak-based OAuth2/OIDC with RBAC and JWT validation in Spring Security.</li>
+            <li>Reduced database latency by 40% with SQL optimization and smart indexing.</li>
+            <li>Developed reusable React components, increasing engagement time-on-page 25% and reducing bounce rate 18%.</li>
+        </ul>
+    </div>
+    <!-- Mastercard -->
+    <div>
+        <h3>Senior Software Engineer – Mastercard</h3>
+        <span>St. Louis, MO – July 2022 - Jan 2025</span>
+        <ul>
+            <li>Developed Spring Boot 3 microservices for financial risk tracking, deployed on AWS EKS, MSK, API Gateway, Aurora RDS, CloudWatch.</li>
+            <li>Built secure REST APIs ensuring compliance with secure coding standards.</li>
+            <li>Lowered GC/allocation overhead and optimized throughput via multi-threading, JVM tuning, and Redis caching.</li>
+            <li>Improved peak throughput from 850 to 1,250 req/sec (-47%) and reduced p95 latency from 320ms to 190ms (-41%).</li>
+            <li>Applied Factory, Strategy, Builder, and Decorator patterns for workflow testability (+40%).</li>
+            <li>Enhanced dataset rendering (Ag Grid SSR, pagination), reduced load times (50%).</li>
+            <li>Built real-time Kafka data pipelines and React front-end component library.</li>
+            <li>Achieved 100% remediation of security issues flagged by SonarQube/Checkmarx.</li>
+            <li>Monitored microservice health and API performance with Prometheus/Grafana/AWS CloudWatch dashboards.</li>
+            <li>Coordinated agile teams (15 engineers) to deliver features ahead of schedule.</li>
+        </ul>
+    </div>
+    <!-- University of Colorado -->
+    <div>
+        <h3>Software Engineer – University of Colorado</h3>
+        <span>Denver, CO – June 2020 - May 2022</span>
+        <ul>
+            <li>Built and deployed 10 microservices in Java 8/Spring Boot on AWS/OpenShift for student/admin workflows.</li>
+            <li>Integrated secure payment workflows with third-party APIs for tuition/fees, ensuring PCI compliance and real-time validation.</li>
+            <li>Configured Circuit Breaker pattern with Resilience4j, reducing cascading outages by 35%.</li>
+            <li>Optimized PostgreSQL/Oracle queries, improving performance by 35%. Automated workflows with PL/SQL procedures.</li>
+            <li>Implemented Kafka producers/consumers for messaging fault tolerance.</li>
+            <li>Developed 20 dynamic React/Redux UI components, boosting engagement by 15%.</li>
+        </ul>
+    </div>
+    <!-- SAP -->
+    <div>
+        <h3>Software Engineer – SAP</h3>
+        <span>Herndon, VA – Feb 2018 - May 2020</span>
+        <ul>
+            <li>Developed Spring Boot microservices integrated with AWS (S3, SES, SNS) and secured APIs (Spring Security, OAuth 2.0).</li>
+            <li>Built core backend with Java, Spring MVC, Hibernate ORM, JDBC templates for efficient persistence.</li>
+            <li>Developed SPAs with React/AngularJS; responsive UI components with Bootstrap, HTML, CSS.</li>
+            <li>Implemented async messaging and data processing with Kafka/JMS (failure reprocessing for reliability).</li>
+            <li>Collaborated in Agile SCRUM teams, introducing Smartsheet for backlog and requirements management.</li>
+        </ul>
+    </div>
+    <div class="education">
+        <h2>Education</h2>
+        <div><b>Bachelor of Science in Computer Science</b></div>
+        <span>Howard University, Washington, D.C., Summa Cum Laude, May 2019</span>
+        <ul>
+            <li>Coursework: Data Structures & Algorithms, Software Engineering, OOD, Database Management, Computer Architecture, OS, Networking, Probability & Statistics, Linear Algebra, Discrete Math, Numerical Analysis, Machine Learning.</li>
+        </ul>
+    </div>
+    <div class="achievements">
+        <h2 class="section-title">Achievements</h2>
+        <ul>
+            <li>1st place in MIT Tech Policy Hackathon 2022.</li>
+            <li>Performed data analysis using Python, NumPy, Matplotlib to guide policy recommendations.</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
